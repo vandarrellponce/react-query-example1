@@ -1,7 +1,7 @@
 import React from 'react'
 
 const People = () => {
-	return <div></div>
+	return <div> People </div>
 }
 
 export default People
