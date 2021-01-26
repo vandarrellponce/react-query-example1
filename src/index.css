@@ -30,3 +30,31 @@ button:hover {
 .content {
   text-align: left;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  height: 50px;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(15, 15, 15);
+}
+
+.card > p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.card > h3 {
+  font-size: 14px;
+  margin-bottom: 7px;
+  margin-top: 0;
+}
