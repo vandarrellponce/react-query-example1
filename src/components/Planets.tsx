@@ -8,7 +8,11 @@ const fetchPlanets = async () => {
 }
 
 const Planets = () => {
-  const { data, status } = useQuery('planets', fetchPlanets) //success, loading, error
+  const { data, status } = useQuery('planets', fetchPlanets, {
+    staleTime: 0,
+    //cacheTime: 0,
+    onSuccess: () => console.log('no problem')
+  }) //success, loading, error
 
   return (
     <div className="container">

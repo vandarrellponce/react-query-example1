@@ -1,10 +1,6 @@
 import React from 'react'
 
-interface myProps {
-  setPage: any
-}
-
-const Navbar: React.FC<myProps> = ({ setPage }) => {
+const Navbar = ({ setPage }) => {
   return (
     <nav>
       <button
